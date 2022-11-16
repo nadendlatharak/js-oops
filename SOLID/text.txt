@@ -1,0 +1,5 @@
+S - Single Responsibility
+O - Open - closed principle
+L - Liskov rule
+I - ------
+D - Dependency Inversion
