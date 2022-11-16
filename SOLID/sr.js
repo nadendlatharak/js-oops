@@ -18,6 +18,11 @@ class Car{
             chesis: this.chesis         // action performance resp 2
         }
     }
+
+    modifyCar(){
+        let theCAr = this.getcar();
+        //changes/
+    }
 }
 
 let c = new Car(232,'red',090909090);
@@ -51,3 +56,14 @@ class CarAction extends Car{
             }
     }
 }
+
+class ModifyCarAction{
+    constructor(carObj){
+        this.carObj = carObj;
+    }
+    modify(){
+        //modification
+    }
+}
+
+let ma = new ModifyCarAction(new Car(979,'yii',8989));
