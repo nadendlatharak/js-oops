@@ -40,8 +40,8 @@ class Car{
 }
 
 class ExtendedCarProp extends Car{
-    constructor(){
-        super();
+    constructor(num,color, chesisNum){
+        super(num,color, chesisNum);
         this.extProp = "this is extended"; // model---- data resp1
     }
 }
